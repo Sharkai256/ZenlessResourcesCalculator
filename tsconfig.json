@@ -1,0 +1,10 @@
+{
+	"include": ["./src/*.ts"],
+	"exclude": [""],
+	"compilerOptions": {
+		"target": "ESNext",
+		"outDir": "./",
+		"noEmitOnError": true,
+		"strict": true
+	}
+}
