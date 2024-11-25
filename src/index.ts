@@ -198,19 +198,20 @@ window.addEventListener('DOMContentLoaded', () => {
 	const guideHTML = '<h1>Zenless Zone Zero Resource Calculator</h1>'
 	+ '<h3>This page allows you to calculate resources required to max out chosen characters</h3>'
 	+ '<h3 style="white-space: pre-wrap">How to use:\n'
-	+ '1. Choose character you want to max out\n'
+	+ '1. Choose a character you want to max out\n'
 	+ '2. Fill out current upgrades and levels\n'
 	+ '3. Calculations are done automatically and will be shown in a table below</h3>\n'
 
 	const charHeaderHTML = '<th>Character</th>'
 	+ '<th>Core Upgrades</th>'
 	+ '<th>Skill Upgrades</th>'
-	+ '<th>Character Curernt Level</th>'
-	+ '<th>WEngine Current Level</th>'
+	+ '<th>Curernt Character Level</th>'
+	+ '<th>Current WEngine Level</th>'
 	+ '<th>Resource 1</th>'
 	+ '<th>Resource 2</th>'
 
 	// grave accent here because I'm not doing all that line-by-line
+	// TODO: make options dynamically generating
 	const charBodyHTML = `
 	<td>
 		<select>

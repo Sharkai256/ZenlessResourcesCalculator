@@ -14,3 +14,26 @@ th, td {
 td {
 	text-align: center;
 }
+
+body {
+	width: 1000px;
+	height: 600px;
+	color: green;
+	font-family: sans-serif;
+	font-size: larger;
+	text-shadow: aqua 1px 1px 1px;
+	background: rgb(147, 226, 204);
+	background-size: 1700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Zenless_Zone_Zero_curved_box_stacked_alternative_logo.svg/2560px-Zenless_Zone_Zero_curved_box_stacked_alternative_logo.svg.png');
+}
+
+th {
+	font-size: larger;
+	background-color: black;
+}
+
+td {
+	background-color: black;
+}
