@@ -18,11 +18,11 @@ td {
 body {
 	width: 1000px;
 	height: 600px;
-	color: green;
+	color: rgb(0 128 0);
 	font-family: sans-serif;
 	font-size: larger;
-	text-shadow: aqua 1px 1px 1px;
-	background: rgb(147, 226, 204);
+	text-shadow: rgb(0 255 255) 1px 1px 1px;
+	background: rgb(147 226 204);
 	background-size: 1700px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -31,9 +31,9 @@ body {
 
 th {
 	font-size: larger;
-	background-color: black;
+	background-color: rgb(0 0 0);
 }
 
 td {
-	background-color: black;
+	background-color: rgb(0 0 0);
 }
